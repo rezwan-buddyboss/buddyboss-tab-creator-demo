@@ -1,0 +1,28 @@
+{
+  "landingPage": "/wp-admin/plugins.php",
+  "preferredVersions": {
+    "php": "8.2",
+    "wp": "latest"
+  },
+  "steps": [
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "url",
+        "url": "https://github.com/rezwan-buddyboss/buddyboss-tab-creator-demo/releases/download/v1.0.0/bb-web-2-sites-2.20.0.1.zip"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "url",
+        "url": "https://github.com/rezwan-buddyboss/buddyboss-tab-creator-demo/releases/download/v1.0.0/buddyboss-tab-creator.zip"
+      }
+    },
+    {
+      "step": "login",
+      "username": "admin",
+      "password": "password"
+    }
+  ]
+}
