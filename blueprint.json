@@ -9,17 +9,14 @@
       "step": "installPlugin",
       "pluginZipFile": {
         "resource": "url",
-        "url": "https://github.com/rezwan-buddyboss/buddyboss-tab-creator-demo/releases/download/v1.0.0/bb-web-2-sites-2.20.0.1.zip"
-      },
-      "options": {
-        "activate": false
+        "url": "https://github.com/rezwan-buddyboss/buddyboss-tab-creator-demo/releases/download/v1.0.0/buddyboss-tab-creator.zip"
       }
     },
     {
       "step": "installPlugin",
       "pluginZipFile": {
         "resource": "url",
-        "url": "https://github.com/rezwan-buddyboss/buddyboss-tab-creator-demo/releases/download/v1.0.0/buddyboss-tab-creator.zip"
+        "url": "https://github.com/rezwan-buddyboss/buddyboss-tab-creator-demo/releases/download/v1.0.0/bb-web-2-sites-2.20.0.1.zip"
       },
       "options": {
         "activate": false
