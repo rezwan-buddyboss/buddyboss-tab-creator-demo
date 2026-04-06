@@ -27,11 +27,7 @@
     },
     {
       "step": "runPHP",
-      "code": "<?php require '/wordpress/wp-load.php'; activate_plugin('buddyboss-platform/bp-loader.php'); ?>"
-    },
-    {
-      "step": "runPHP",
-      "code": "<?php require '/wordpress/wp-load.php'; activate_plugin('buddyboss-tab-creator/buddyboss-tab-creator.php'); ?>"
+      "code": "<?php require '/wordpress/wp-load.php'; activate_plugin('buddyboss-platform/bp-loader.php'); activate_plugin('buddyboss-tab-creator/buddyboss-tab-creator.php'); ?>"
     },
     {
       "step": "login",
